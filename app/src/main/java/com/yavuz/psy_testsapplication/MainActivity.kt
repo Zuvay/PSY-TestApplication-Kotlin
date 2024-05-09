@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
     fun goTestOne(view:View){
-        //Aktiviteler arası veri yollama için area verisini string hale getirdik
+        //Aktiviteler arası veri yollama için area verisini string hale getirdik.
         editNameText = findViewById(R.id.editNameText)
         val userInput: String = editNameText.text.toString()
 
