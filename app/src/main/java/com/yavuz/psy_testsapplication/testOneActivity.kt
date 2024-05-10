@@ -10,7 +10,6 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class testOneActivity : AppCompatActivity() {
-    private lateinit var toMainMenu : Button
     private lateinit var welcomeTextView : TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,10 +27,5 @@ class testOneActivity : AppCompatActivity() {
         val alinanVeri = getData.getStringExtra("TextFromMainActivity")
         welcomeTextView = findViewById(R.id.welcomeTextView)
         welcomeTextView.text= "Selam $alinanVeri"
-    }
-
-    fun toMainMenu(){
-        val intent = Intent(applicationContext,MainActivity::class.java)
-        startActivity(intent)
     }
 }
