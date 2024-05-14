@@ -13,6 +13,12 @@
         android:theme="@style/Theme.PSYTestsApplication"
         tools:targetApi="31">
         <activity
+            android:name=".testOneResult"
+            android:exported="false" />
+        <activity
+            android:name=".testOneActivity"
+            android:exported="false" />
+        <activity
             android:name=".testThreeActivity"
             android:exported="false" />
         <activity
@@ -20,7 +26,8 @@
             android:exported="false" />
         <activity
             android:name=".testOneActivity"
-            android:exported="false" />
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

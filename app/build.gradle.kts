@@ -1,3 +1,6 @@
+import org.jetbrains.kotlin.storage.CacheResetOnProcessCanceled.enabled
+import org.jetbrains.kotlin.types.checker.TypeRefinementSupport.Disabled.isEnabled
+
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
@@ -6,6 +9,10 @@ plugins {
 android {
     namespace = "com.yavuz.psy_testsapplication"
     compileSdk = 34
+
+    buildFeatures {
+        viewBinding = true
+    }
 
     defaultConfig {
         applicationId = "com.yavuz.psy_testsapplication"
