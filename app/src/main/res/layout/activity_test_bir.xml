@@ -232,13 +232,13 @@
                     android:id="@+id/TextQ5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="SORUBES" />
+                    android:text="5-)Günlük yaşantım beni ilgilendiren şeylerle dolu." />
 
                 <RadioButton
                     android:id="@+id/soru5buton1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="5-)Günlük yaşantım beni ilgilendiren şeylerle dolu." />
+                    android:text="Hiçbir zaman" />
 
                 <RadioButton
                     android:id="@+id/soru5buton2"
@@ -250,19 +250,19 @@
                     android:id="@+id/soru5buton3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="soru1buton3" />
+                    android:text="Geçen zamanın yarısından daha azında" />
 
                 <RadioButton
                     android:id="@+id/soru5buton4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="soru1buton4" />
+                    android:text="Geçen zamanın yarısından fazlasında" />
 
                 <RadioButton
                     android:id="@+id/soru5buton5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="soru1buton5" />
+                    android:text="Çoğu zaman" />
 
                 <Button
                     android:id="@+id/submitButton"
