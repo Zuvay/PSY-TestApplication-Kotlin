@@ -8,12 +8,12 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/testOneButton"
+        android:id="@+id/goWho5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
-        android:onClick="goTestOne"
-        android:text="TestBir"
+        android:onClick="goWho5"
+        android:text="WHO 5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,45 +24,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
+        android:layout_marginBottom="351dp"
         android:background="#FFFFFF"
         android:text="Test Uygulamasına Hoşgeldiniz"
         android:textColor="#673AB7"
         android:textColorHighlight="#C10F0F"
         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editNameText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/testThreeButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:onClick="goTestThree"
-        android:text="TestÜç"
-        app:layout_constraintStart_toStartOf="@+id/testTwoButton"
-        app:layout_constraintTop_toBottomOf="@+id/testTwoButton" />
-
-    <Button
-        android:id="@+id/testTwoButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:onClick="goTestTwo"
-        android:text="Testİki"
-        app:layout_constraintStart_toStartOf="@+id/testOneButton"
-        app:layout_constraintTop_toBottomOf="@+id/testOneButton" />
-
     <EditText
         android:id="@+id/editNameText"
         android:layout_width="280dp"
-        android:layout_height="125dp"
-        android:layout_marginTop="82dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="172dp"
         android:ems="10"
         android:hint="İsim Giriniz"
         android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/testThreeButton" />
+        app:layout_constraintTop_toBottomOf="@+id/welcomeLabel" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

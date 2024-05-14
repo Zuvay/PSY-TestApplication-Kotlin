@@ -1,14 +1,19 @@
+package com.yavuz.psy_testsapplication
+
 import android.os.Bundle
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import com.yavuz.psy_testsapplication.databinding.ActivityTestOneBinding
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import com.yavuz.psy_testsapplication.databinding.ActivityTestBirBinding
 
-class testOneActivity : AppCompatActivity() {
+class TestBir : AppCompatActivity() {
 
-    private lateinit var binding: ActivityTestOneBinding // Bağlama sınıfından bir değişken oluşturuluyor
+    private lateinit var binding: ActivityTestBirBinding // Bağlama sınıfından bir değişken oluşturuluyor
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityTestOneBinding.inflate(layoutInflater) // Bağlama sınıfı şişiriliyor
+        binding = ActivityTestBirBinding.inflate(layoutInflater) // Bağlama sınıfı şişiriliyor
         val view = binding.root
         setContentView(view)
 

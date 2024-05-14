@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/main"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:context=".testOneActivity">
+        android:layout_height="match_parent"
+        tools:context=".TestBir">
 
         <LinearLayout
             android:id="@+id/total"
@@ -275,5 +276,4 @@
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 </ScrollView>
