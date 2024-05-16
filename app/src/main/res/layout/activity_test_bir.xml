@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -58,35 +56,40 @@
                     android:layout_height="wrap_content"
                     android:text="1-)Kendimi neşeli ve keyifli hissettim." />
 
-                <RadioButton
-                    android:id="@+id/soru1buton1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Hiçbir zaman" />
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
 
-                <RadioButton
-                    android:id="@+id/soru1buton2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Bazen" />
+                    <RadioButton
+                        android:id="@+id/soru1buton1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hiçbir zaman" />
 
-                <RadioButton
-                    android:id="@+id/soru1buton3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Geçen zamanın yarısından daha azında" />
+                    <RadioButton
+                        android:id="@+id/soru1buton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bazen" />
 
-                <RadioButton
-                    android:id="@+id/soru1buton4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Geçen zamanın yarısından fazlasında" />
+                    <RadioButton
+                        android:id="@+id/soru1buton3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Geçen zamanın yarısından daha azında" />
 
-                <RadioButton
-                    android:id="@+id/soru1buton5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Çoğu zaman" />
+                    <RadioButton
+                        android:id="@+id/soru1buton4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Geçen zamanın yarısından fazlasında" />
+
+                    <RadioButton
+                        android:id="@+id/soru1buton5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Çoğu zaman" />
+                </RadioGroup>
 
             </LinearLayout>
 
@@ -103,35 +106,41 @@
                     android:text="2-)Kendimi sakin ve keyifli hissettim.
 " />
 
-                <RadioButton
-                    android:id="@+id/soru2buton1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Hiçbir zaman" />
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
 
-                <RadioButton
-                    android:id="@+id/soru2buton2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Bazen " />
+                    <RadioButton
+                        android:id="@+id/soru2buton1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hiçbir zaman" />
 
-                <RadioButton
-                    android:id="@+id/soru2buton3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Geçen zamanın yarısından daha azında" />
+                    <RadioButton
+                        android:id="@+id/soru2buton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bazen " />
 
-                <RadioButton
-                    android:id="@+id/soru2buton4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Geçen zamanın yarısından fazlasında" />
+                    <RadioButton
+                        android:id="@+id/soru2buton3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Geçen zamanın yarısından daha azında" />
 
-                <RadioButton
-                    android:id="@+id/soru2buton5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Çoğu zaman" />
+                    <RadioButton
+                        android:id="@+id/soru2buton4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Geçen zamanın yarısından fazlasında" />
+
+                    <RadioButton
+                        android:id="@+id/soru2buton5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Çoğu zaman" />
+                </RadioGroup>
+
             </LinearLayout>
 
             <LinearLayout
@@ -147,35 +156,41 @@
                     android:text="3-)Kendimi aktif ve dinç hissettim.
 " />
 
-                <RadioButton
-                    android:id="@+id/soru3buton1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Hiçbir zaman" />
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
 
-                <RadioButton
-                    android:id="@+id/soru3buton2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Bazen" />
+                    <RadioButton
+                        android:id="@+id/soru3buton1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hiçbir zaman" />
 
-                <RadioButton
-                    android:id="@+id/soru3buton3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Geçen zamanın yarısından daha azında" />
+                    <RadioButton
+                        android:id="@+id/soru3buton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bazen" />
 
-                <RadioButton
-                    android:id="@+id/soru3buton4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Geçen zamanın yarısından fazlasında" />
+                    <RadioButton
+                        android:id="@+id/soru3buton3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Geçen zamanın yarısından daha azında" />
 
-                <RadioButton
-                    android:id="@+id/soru3buton5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Çoğu zaman" />
+                    <RadioButton
+                        android:id="@+id/soru3buton4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Geçen zamanın yarısından fazlasında" />
+
+                    <RadioButton
+                        android:id="@+id/soru3buton5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Çoğu zaman" />
+                </RadioGroup>
+
             </LinearLayout>
 
             <LinearLayout
@@ -191,35 +206,41 @@
                     android:text="4-)Sabahları kendimi taze ve dinlenmiş hissederek uyandım.
 " />
 
-                <RadioButton
-                    android:id="@+id/soru4buton1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Hiçbir zaman" />
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
 
-                <RadioButton
-                    android:id="@+id/soru4buton2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Bazen" />
+                    <RadioButton
+                        android:id="@+id/soru4buton1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hiçbir zaman" />
 
-                <RadioButton
-                    android:id="@+id/soru4buton3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Geçen zamanın yarısından daha azında" />
+                    <RadioButton
+                        android:id="@+id/soru4buton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bazen" />
 
-                <RadioButton
-                    android:id="@+id/soru4buton4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Geçen zamanın yarısından fazlasında" />
+                    <RadioButton
+                        android:id="@+id/soru4buton3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Geçen zamanın yarısından daha azında" />
 
-                <RadioButton
-                    android:id="@+id/soru4buton5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Çoğu zaman" />
+                    <RadioButton
+                        android:id="@+id/soru4buton4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Geçen zamanın yarısından fazlasında" />
+
+                    <RadioButton
+                        android:id="@+id/soru4buton5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Çoğu zaman" />
+                </RadioGroup>
+
             </LinearLayout>
 
             <LinearLayout
@@ -234,35 +255,40 @@
                     android:layout_height="wrap_content"
                     android:text="5-)Günlük yaşantım beni ilgilendiren şeylerle dolu." />
 
-                <RadioButton
-                    android:id="@+id/soru5buton1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Hiçbir zaman" />
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
 
-                <RadioButton
-                    android:id="@+id/soru5buton2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Bazen " />
+                    <RadioButton
+                        android:id="@+id/soru5buton1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hiçbir zaman" />
 
-                <RadioButton
-                    android:id="@+id/soru5buton3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Geçen zamanın yarısından daha azında" />
+                    <RadioButton
+                        android:id="@+id/soru5buton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bazen " />
 
-                <RadioButton
-                    android:id="@+id/soru5buton4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Geçen zamanın yarısından fazlasında" />
+                    <RadioButton
+                        android:id="@+id/soru5buton3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Geçen zamanın yarısından daha azında" />
 
-                <RadioButton
-                    android:id="@+id/soru5buton5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Çoğu zaman" />
+                    <RadioButton
+                        android:id="@+id/soru5buton4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Geçen zamanın yarısından fazlasında" />
+
+                    <RadioButton
+                        android:id="@+id/soru5buton5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Çoğu zaman" />
+                </RadioGroup>
 
                 <Button
                     android:id="@+id/submitButton"
