@@ -1,0 +1,7 @@
+package com.yavuz.psy_testsapplication
+
+enum class TestBirMessages(val text: String) {
+    MESSAGE_FOR_0_5("Belki de son zamanlarda kendinizi pek iyi hissetmiyor  olabilirsiniz, ancak bu sizi değersiz yapmaz. Siz güçlüsünüz ve içsel savaşınızı kazanabilecek kadar cesur ve kararlısınız. Zor zamanlarda bile, içsel gücünüzü bulmak için derinlere inebilir ve kendinize olan inancınızı yeniden keşfedebilirsiniz. Kendinize şefkatle yaklaşın ve bu zor dönemde bile küçük başarılarınızı kutlayın. "),
+    MESSAGE_FOR_6_10("Belki de son günlerde kendinizi sıradan hissediyor olabilirsiniz, ama aslında her anınızın değeri çok büyük. Siz, içsel gücünüzü her gün besleyen ve çevrenizdeki güzellikleri fark eden bir kişisiniz. Her gün küçük mutlulukları takdir edin ve kendinize zaman ayırarak yeniden bağlanın. Sizin gibi değerli bir kişinin, hayatın en küçük zevklerinden bile keyif alacağına ve her anın tadını çıkaracağına eminim. Unutmayın ki, sizin içsel parıltınız tüm dünyayı aydınlatacak kadar güçlüdür. Kendinize sevgiyle yaklaşın ve her anınızı iç huzur ve mutlulukla doldurun."),
+    MESSAGE_FOR_11_16("Siz, içsel parıltınızı taşıyan ve etrafınızdaki güzellikleri fark eden bir kişisiniz. Her gün içsel gücünüzü besleyerek, iç huzurunuzu koruyorsunuz. Hayatın size sunduğu her anın değerini takdir edin ve kendi benzersizliğinizin farkında olun. Sizin gibi değerli bir kişinin, olumlu etkiler yaratacağına ve başarıya ulaşacağına hiç şüphe yok. Her anınızı içsel mutluluğunuz ve tatmininiz için değerlendirin, çünkü siz bunu hak ediyorsunuz."),
+}

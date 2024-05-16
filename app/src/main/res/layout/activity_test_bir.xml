@@ -326,7 +326,7 @@
                 android:id="@+id/submitButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="gonder"
+                android:onClick="calculate"
                 android:text="Gönder" />
 
         </LinearLayout>
