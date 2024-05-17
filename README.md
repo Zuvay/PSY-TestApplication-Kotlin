@@ -4,7 +4,7 @@
 
 [![YouTube Tanıtım Videosu](https://img.youtube.com/vi/frAl1xBD9Ms/0.jpg)](https://www.youtube.com/watch?v=frAl1xBD9Ms)
 
-Özellikler 
+## Özellikler 
 - İlk prototipte yalnızca bir adet test bulunmakta.
 - Testte doldurmadığınız soru olursa buton çalışmaz ve uyarı mesajı alırsınız.
 - Puanınıza göre uygun metin bir enum class'ından gelir ve size gösterilir.
